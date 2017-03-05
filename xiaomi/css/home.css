@@ -33,34 +33,6 @@ a:active,a:hover{outline: 0 none;}
 .site_topbar .car_menu .loading{margin: 5px 20px 20px;text-align: center;}
 .loading{text-align: center;padding: 20px 0;background: #fff repeat;height: 40px;color: #424242;width: 316px;}
 .loading::before,.loading::after{content: "";height: 20px;left: 50%;position: absolute;top: 50%;width: 4px;}
-/* .loader{animation_delay: 0s;background: #ff6700 repeat;height: 20px;margin: 0 auto;overflow: visible;position: relative;transfrom:scale(1,1);width: 4px;}
-.loader, .loader::before, .loader::after {
-    animation-direction: alternate-reverse;
-    animation-duration: 0.3s;
-    animation-iteration-count: infinite;
-    animation-name: loader;
-    animation-timing-function: linear;
-    transform-origin: 50% 50% 0;
-}
-.loader::before, .loader::after {
-    background: #ff6700;
-    content: "";
-    height: 20px;
-    left: 50%;
-    position: absolute;
-    top: 50%;
-    width: 4px;
-}
-.loader::before {
-    animation-delay: 0.25s;
-    margin: -10px 0 0 -10px;
-    transform: scale(1, 0.3);
-}
-.loader::after {
-    animation-delay: 0.5s;
-    margin: -10px 0 0 6px;
-    transform: scale(1, 0.5);
-} */
 .iconfont{font-family: "iconfont" !important;font-style: normal;}
 .site_topbar .cart_mini_num{margin-left: -4px;}
 .site_topbar .topbar_cart_active .cart_mini{background: #fff repeat;color: #ff6700;}
