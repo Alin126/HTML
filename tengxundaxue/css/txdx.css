@@ -30,9 +30,10 @@ b,i,em{font-style: normal;font-weight: 100;}
 .top_right{width: 144px;height: 78px;float: left;}
 .top_right .zcdl{float: right;line-height: 30px;}
 .top_right .zcdl a{text-decoration: none;color: #212121;}
+.top_right .zcdl a{text-decoration: none;color: #212121;}
 .top_right form{width: 143px;height: 24px;margin-top: 30px;border: 1px solid #cdb6a1;}
-form .text1{width: 117;height: 22px;border: 0;float: left;}
-form .sub1{width: 22px;height: 22px;float: left;background: url(../images/img21.jpg) no-repeat left center;border: 0;}
+.form1 .text1{height: 22px;border: 0;float: left;width: 117;}
+.form1 .sub1{width: 22px;height: 22px;float: left;background: url(../images/img21.jpg) no-repeat left center;border: 0;}
 
 /*nav*/
 .nav{width: 1439px;height: 388px;background: #fff;}
