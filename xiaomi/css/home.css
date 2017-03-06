@@ -124,10 +124,14 @@ form{margin: 0;}
 .site_header .search_form{height: 50px;position: relative;width: 269px;}
 .hide{display: none;}
 .site_header .search_text{border: 1px solid #e0e0e0;font-size: 14px;height: 48px;outline: 0 none;padding: 0 10px;position: absolute;right: 52px;top: 0;tarnsition:all 0.2s ease 0s;width: 223px;z-index: 1px;}
+.site_header .search_from_focus .search_text{border-color: #ff6700;}
+.site_header .search_from_focus:hover .search_text{border-color: #ff6700;}
 input[type="search"]{box-sizing:content-box;}
 .site_header .search_btn{background: #fff;border: 1px solid #e0e0e0;color: #616161;font-size: 24px;height: 50px;line-height: 24px;outline: 0 none;position: absolute;right: 0;top: 0;transition:all 0.2s ease 0s;width: 52px;z-index: 2;}
 button, html input[type="button"],input[type="reset"],input[type="submit"]{cursor: pointer;}
 .site_header .search_btn:hover{background: #ff6700;}
+.site_header .search_from_focus .search_btn{border-color: #ff6700;}
+.site_header .search_from_focus:hover .search_btn{border-color: #ff6700;}
 .site_header .search_hot_words{position: absolute;right: 62px;text-align: right;top: 14px;z-index: 2;}
 .site_header .search_hot_words a{background: #eee;color: #757575;display: inline-block;font-size: 12px;margin-left: 5px;padding: 1 5px;transition:all 0.2s ease 0s;}
 .site_header .search_hot_words a:hover{color: #fff;background: #ff6700;}

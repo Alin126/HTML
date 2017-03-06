@@ -38,13 +38,14 @@ $(".nav_item").mouseleave(function(e){
 });
 
 $("#search").focus(function(){
-	//$("#J_keywordList").css('display','block');
-	$(".search-hot-words").css("display","none");
+	$("#J_searchForm").addClass("search_from_focus");
+	$(".search_hot_words").css("display","none");
 	$("#J_keywordList").removeClass('hide');
 });
 
 $("#search").blur(function(){
-	$(".search-hot-words").css("display","block");
+	$("#J_searchForm").removeClass("search_from_focus");
+	$(".search_hot_words").css("display","block");
 	 $("#J_keywordList").addClass('hide');
 });
 var t = t1 = t2 = n = 0,count;
