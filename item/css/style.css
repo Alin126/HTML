@@ -656,7 +656,7 @@ a{color:#666;text-decoration:none;}
 .jion_title.cur .s2{ 
 	-moz-transform: rotate(-180deg);
 }
-.jion_title.cur1 .s2{ 
+/*.jion_title.cur1 .s2{ 
 	animation: s2Amin  linear 0.5s  forwards;
 	-moz-animation: s2Amin linear 0.5s forwards ;
 	-webkit-animation: s2Amin linear 0.5s  forwards;
@@ -671,7 +671,7 @@ a{color:#666;text-decoration:none;}
 	-o-animation: s2AminCur linear 0.5s  forwards; 
 	-ms-animation: s2AminCur linear 0.5s  forwards; 
 	
-}
+}*/
 @keyframes s2Amin
 {
 	0%{transform: rotate(0deg);	}
